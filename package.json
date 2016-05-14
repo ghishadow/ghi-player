@@ -1,14 +1,14 @@
 {
-  "name": "scotch-player",
-  "productName":"Scotch Player",
+  "name": "ghi-player",
+  "productName":"Ghi Player",
   "version": "1.0.0",
-  "description": "Scotch Demo Player",
+  "description": "Ghi Player",
   "main": "main.js",
   "scripts": {
     "start": "electron main.js",
     "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
   },
-  "author": "Scotch",
+  "author": "Suraj Ghimire",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.9.1",
